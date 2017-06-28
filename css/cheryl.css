@@ -1,0 +1,191 @@
+/* SPECIFIC FOR CHERYL'S PAGE*/
+
+#googleMap {
+    width: 240px;
+    height: 240px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #9ec3f9;
+}
+
+#googleMap img {
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    #googleMap {
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    #googleMap img {
+        box-shadow: 0;
+    }
+}
+
+
+/* FORM SYTLES*/
+
+input,
+select {
+    margin-bottom: 15px;
+}
+
+input,
+select,
+textarea {
+    padding: 5px;
+    border: 1px solid #908e4a;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-box-shadow: 0px 0px 2px 2px rgba(144, 142, 74, .2);
+    box-shadow: 0px 0px 2px 2px rgba(144, 142, 74, .2);
+}
+
+input:focus,
+textarea:focus,
+input[type="submit"]:hover {
+    outline: 0;
+    -webkit-border-box-shadow: 0px 0px 2px 2px rgba(144, 142, 74, .2);
+    box-shadow: 0px 0px 2px 2px rgba(144, 142, 74, .8);
+}
+
+select:focus {
+    outline: 0;
+}
+
+label {
+    width: 45%;
+    font-weight: 400;
+}
+
+label.checkbox {
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+.inline-radio {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.membership {
+    display: block;
+}
+
+@media screen and (min-width: 415px) {
+.membership {
+    display: inline-block;
+    }
+}
+
+legend {
+    font-size: 1.1em;
+    color: #c77f49;
+    font-weight: 600;
+    margin-bottom: 0;
+    border-bottom: 1px solid #908e4a;
+}
+
+input[type="submit"] {
+    color: #9c8573;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
+input[type="submit"]:hover {
+    color: #908e4a;
+    background-color: #f3eedb;
+}
+
+input[type="radio"]:selected {
+    color: #908e4a !important;
+    background-color: #908e4a !important;
+}
+
+
+/* ADDED AFTER INTEGRATION ON 1/25/16 */
+
+
+/* FOR DEPARTMENTS PAGE */
+
+.inner {
+    padding: 10px;
+}
+
+.plain {
+    border: 0;
+    box-shadow: 0 0 0;
+    margin-top: 5px;
+}
+
+.departments-box {
+    width: 200px;
+    height: 340px;
+    margin: 30px auto 0;
+    border: 5px solid #908e4a;
+    box-shadow: 0px 0px 5px #000;
+}
+
+@media screen and (min-width: 1200px) {
+.departments-box {
+    width: 230px;
+    height: 370px;
+    }
+}
+
+.departments-box img {
+    margin-bottom: 5px;
+}
+
+.departments-box img:hover {
+    opacity: .5;
+}
+
+.departments-box h3 {
+    margin-top: 0;
+}
+
+.departments-box p {
+    font-size: .9em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+p.subscription {
+    font-family: 'blackjack', cursive;
+    font-size: 2.8em;
+    line-height: 1.4em;
+    color: #908e4a;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+p.subscription {
+    font-size: 3em;
+    margin-top: 30px;
+    }
+}
+
+a.departments:hover h3 {
+    color: #908e4a;
+    border-color: #908e4a;
+}
+
+a.departments:hover img {
+    opacity: .5;
+}
+
+@media screen and (min-width: 768px) {
+.top-of-column {
+    margin-top: 0;
+    }
+}
+
+.middle {
+    margin: 20px auto;
+}
