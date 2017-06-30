@@ -64,11 +64,7 @@
 
 .apst-button::before {
         /* content: url(../assets/Images/socialicons/arrow-up-xs.png); */
-<<<<<<< HEAD
         content: "\f062";
-=======
-        content: "/f062";
->>>>>>> master
         display: block;
         position: relative;
         left:4px;
