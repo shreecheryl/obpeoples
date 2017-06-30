@@ -63,8 +63,7 @@
         }
 
 .apst-button::before {
-        /* content: url(../assets/Images/socialicons/arrow-up-xs.png); */
-        content: "\f062";
+        content: url(../assets/Images/socialicons/arrow-up-xs.png);
         display: block;
         position: relative;
         left:4px;
