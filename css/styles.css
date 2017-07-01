@@ -67,6 +67,10 @@ main img {
         box-shadow: 3px 3px 7px #666;
     }
 
+.fancybox img {
+    margin: 0 0;
+}
+
 @media screen and (min-width: 370px) {
     main img {
         margin: 20px 0;
